@@ -24,6 +24,6 @@ Once you've done this, execute
 
 and that's it. You can exit and all your work will be saved to a folder called output.
 
-##Rebuilding Docker Containers
+## Rebuilding Docker Containers
 
 Copy the dockerfile you're interested in editing and rebuilding to `Project-Folder`.
