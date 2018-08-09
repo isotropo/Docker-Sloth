@@ -1,0 +1,8 @@
+    {"attributes": {"type":  "rect",
+                    "class": "{0}",
+                    "id":    ["{0}"]},
+     "item":     "sloth.items.RectItem",
+     "inserter": "sloth.items.RectItemInserter",
+     "text":     "{0}"
+    },
+
