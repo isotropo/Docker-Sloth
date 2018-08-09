@@ -2,7 +2,7 @@ Before running the Docker image, move all videos to a directory called videos. T
 
 To run the image, execute
 
-    docker run -it -v output:/data -v videos:videos py3.6-opencv-json-kitti /bin/bash
+    docker run -it -v output:/data -v videos:videos mobutubuntu/py3.6-opencv-json-kitti:latest /bin/bash
 
 from the bash terminal. Next, run the frameGrab.py script.
 
@@ -23,3 +23,7 @@ Once you've done this, execute
     python fileConverter.py
 
 and that's it. You can exit and all your work will be saved to a folder called output.
+
+##Rebuilding Docker Containers
+
+Copy the dockerfile you're interested in editing and rebuilding to `Project-Folder`.
