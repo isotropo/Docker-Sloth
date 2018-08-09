@@ -2,7 +2,7 @@
 
 Before running the Docker image, move all videos to `Project-Folder/videos`. This should be one directory deeper than the directory you're executing the command below from. To run the image, execute
 
-    docker run -it -v output:/data -v videos:videos mobutubuntu/py3.6-opencv-json-kitti:latest /bin/bash
+    docker run -it -v output:/home/data -v videos:/home/videos mobutubuntu/py3.6-opencv-json-kitti:latest /bin/bash
 
 in the directory `Project-Folder`. Within the docker container, run `frameGrab.py`.
 
@@ -16,17 +16,19 @@ The program will then take this number and calculate an approximate frame captur
 
 *If you're interested in adding new keys to your Sloth config file, edit `configWriter.py`.*
 
-Next, execute
+** NOTE: py3.6-opencv-kitti-sloth is not currently dockerized. The user must either build Sloth from source or install via anaconda on their native filesystem **
 
-	Sloth --config /home/code/config.py
+Next, execute 
 
-, and then add all the images you'd like to work with to the workspace. Select the keys corresponding to the annotations you want to make and click and drag to make bounding boxes around your target object(s).
+	Sloth --config python/config-files/config.py
+
+, and then add all the images you'd like to work with to the workspace. Select the keys corresponding to the annotations you want to make and click and drag to make bounding boxes around your target object(s). Then save your annotations.
 
 Once you've done this, execute
 
     python fileConverter.py
 
-. And that's it. You can exit and all your work will be saved to a folder called output.
+, specify your filename, and then your annotation file is generated. And that's it. You can exit and all your work will be saved to a folder called output.
 
 ## Rebuilding Docker Containers
 

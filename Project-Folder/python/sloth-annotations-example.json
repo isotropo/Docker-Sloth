@@ -1,0 +1,152 @@
+[
+    {
+        "annotations": [
+            {
+                "class": "car.occluded.0",
+                "height": 41.8570558568087,
+                "type": "rect",
+                "width": 55.25131373098736,
+                "x": 791.9354968108199,
+                "y": 505.6332347502486
+            },
+            {
+                "class": "car.occluded.1",
+                "height": 14.927104081770835,
+                "type": "rect",
+                "width": 26.312183466172314,
+                "x": 710.1759518225542,
+                "y": 507.01553525201234
+            },
+            {
+                "class": "car.truncated.0",
+                "height": 18.550089343651507,
+                "type": "rect",
+                "width": 24.25780914169809,
+                "x": 643.9021397171332,
+                "y": 504.4197371523692
+            },
+            {
+                "class": "car.truncated.1",
+                "height": 61.67086200000006,
+                "type": "rect",
+                "width": 151.37393400000022,
+                "x": -28.03221000000004,
+                "y": 479.35079100000064
+            },
+            {
+                "class": "van.occluded.0",
+                "height": 15.60283687943263,
+                "type": "rect",
+                "width": 17.02127659574478,
+                "x": 848.936170212767,
+                "y": 517.0212765957453
+            },
+            {
+                "class": "van.occluded.1",
+                "height": 21.27659574468089,
+                "type": "rect",
+                "width": 22.695035460992926,
+                "x": 870.921985815604,
+                "y": 515.6028368794333
+            },
+            {
+                "class": "van.truncated.0",
+                "height": 13.475177304964632,
+                "type": "rect",
+                "width": 24.822695035461038,
+                "x": 770.2127659574478,
+                "y": 511.3475177304971
+            },
+            {
+                "class": "van.truncated.1",
+                "height": 19.0,
+                "type": "rect",
+                "width": 25.0,
+                "x": 945.0000000000013,
+                "y": 519.0000000000007
+            }
+        ],
+        "class": "image",
+        "filename": "../../Docker/output/freeway0.jpg"
+    },
+    {
+        "annotations": [
+            {
+                "class": "car.occluded.0",
+                "height": 55.0,
+                "type": "rect",
+                "width": 57.000000000000114,
+                "x": 671.0000000000009,
+                "y": 565.0000000000008
+            },
+            {
+                "class": "car.occluded.1",
+                "height": 42.0,
+                "type": "rect",
+                "width": 36.0,
+                "x": 747.000000000001,
+                "y": 575.0000000000008
+            },
+            {
+                "class": "car.truncated.0",
+                "height": 34.0,
+                "type": "rect",
+                "width": 41.000000000000114,
+                "x": 797.000000000001,
+                "y": 574.0000000000008
+            },
+            {
+                "class": "car.truncated.1",
+                "height": 40.0,
+                "type": "rect",
+                "width": 43.000000000000114,
+                "x": 857.0000000000011,
+                "y": 574.0000000000008
+            },
+            {
+                "class": "van.occluded.0",
+                "height": 49.0,
+                "type": "rect",
+                "width": 78.00000000000011,
+                "x": 917.0000000000013,
+                "y": 574.0000000000008
+            },
+            {
+                "class": "van.occluded.1",
+                "height": 35.0,
+                "type": "rect",
+                "width": 52.0,
+                "x": 1011.0000000000014,
+                "y": 569.0000000000008
+            },
+            {
+                "class": "van.truncated.0",
+                "height": 61.0,
+                "type": "rect",
+                "width": 47.00000000000023,
+                "x": 1081.0000000000014,
+                "y": 570.0000000000008
+            },
+            {
+                "class": "van.truncated.1",
+                "height": 38.0,
+                "type": "rect",
+                "width": 70.0,
+                "x": 1136.0000000000016,
+                "y": 572.0000000000008
+            }
+        ],
+        "class": "image",
+        "filename": "../../Docker/output/freeway30.jpg"
+    },
+    {
+        "annotations": [],
+        "class": "image",
+        "filename": "../../Docker/output/freeway60.jpg"
+    },
+    {
+        "annotations": [],
+        "class": "image",
+        "filename": "../../Docker/output/freeway90.jpg"
+    }
+]

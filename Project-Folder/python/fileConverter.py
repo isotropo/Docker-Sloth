@@ -1,6 +1,8 @@
 import json
 jsonInput = {}
-with open("daptationJSONfile.json", "r") as f:
+
+name = input('filename: ')
+with open(name, "r") as f:
     inputData = f.read()
     jsonInput = json.loads(inputData)
 
@@ -44,5 +46,5 @@ output = [outputForInputImage(image) for image in jsonInput]
 # print(outputForInputImage(jsonInput[0]))
 # print(output)
 outputjson = json.dumps(output, indent=2)
-with open('output.json','w') as f:
+with open('../output/annotations/output.json','w') as f:
     f.write(outputjson)
