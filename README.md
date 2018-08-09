@@ -1,8 +1,6 @@
 ## Working With Docker-Sloth
 
-Before running the Docker image, move all videos to `Project-Folder/videos`. This should be one directory deeper than the directory you're executing the command below from.
-
-To run the image, execute
+Before running the Docker image, move all videos to `Project-Folder/videos`. This should be one directory deeper than the directory you're executing the command below from. To run the image, execute
 
     docker run -it -v output:/data -v videos:videos mobutubuntu/py3.6-opencv-json-kitti:latest /bin/bash
 
