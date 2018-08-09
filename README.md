@@ -28,7 +28,7 @@ Once you've done this, execute
 
     python fileConverter.py
 
-, specify your filename, and then your annotation file is generated. And that's it. You can exit and all your work will be saved to a folder called output.
+, specify your filename, and then your annotation file is generated as `output.json` in `Project-Folder/output/annotations`.
 
 ## Rebuilding Docker Containers
 
